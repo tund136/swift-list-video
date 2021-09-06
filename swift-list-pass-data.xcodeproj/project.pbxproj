@@ -12,6 +12,7 @@
 		ADB36EC026E6524100F94744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB36EBF26E6524100F94744 /* Assets.xcassets */; };
 		ADB36EC326E6524100F94744 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB36EC226E6524100F94744 /* Preview Assets.xcassets */; };
 		ADB36ECB26E6529400F94744 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB36ECA26E6529400F94744 /* Video.swift */; };
+		ADB36ECD26E6784700F94744 /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB36ECC26E6784700F94744 /* VideoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ADB36EC226E6524100F94744 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADB36EC426E6524100F94744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADB36ECA26E6529400F94744 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		ADB36ECC26E6784700F94744 /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				ADB36EBF26E6524100F94744 /* Assets.xcassets */,
 				ADB36EC426E6524100F94744 /* Info.plist */,
 				ADB36EC126E6524100F94744 /* Preview Content */,
+				ADB36ECC26E6784700F94744 /* VideoDetailView.swift */,
 			);
 			path = "swift-list-pass-data";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB36EBE26E6523E00F94744 /* VideoListView.swift in Sources */,
+				ADB36ECD26E6784700F94744 /* VideoDetailView.swift in Sources */,
 				ADB36ECB26E6529400F94744 /* Video.swift in Sources */,
 				ADB36EBC26E6523E00F94744 /* swift_list_pass_dataApp.swift in Sources */,
 			);
