@@ -45,13 +45,7 @@ struct VideoDetailView: View {
             Spacer()
             
             Link(destination: video.url, label: {
-                Text("Watch Now")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .frame(width: 280, height: 50)
-                    .background(Color.black)
-                    .foregroundColor(.white)
-                    .cornerRadius(50)
+                WatchNowButton(title: "Watch Now")
             })
         }
     }
@@ -60,5 +54,20 @@ struct VideoDetailView: View {
 struct VideoDetailView_Previews: PreviewProvider {
     static var previews: some View {
         VideoDetailView(video: VideoList.topTen.first!)
+    }
+}
+
+struct WatchNowButton: View {
+    var title: String
+    
+    
+    var body: some View {
+        Text(title)
+            .font(.title2)
+            .fontWeight(.bold)
+            .frame(width: 280, height: 50)
+            .background(Color.red.opacity(0.8))
+            .foregroundColor(.white)
+            .cornerRadius(50)
     }
 }
